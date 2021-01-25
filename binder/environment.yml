@@ -1,0 +1,24 @@
+name: dask-micro-2021
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - bokeh
+  - dask
+  - dask-ml
+  - jupyterlab
+  - nodejs
+  - tornado
+  - numpy
+  - pip
+  - pandas
+  - pyarrow
+  - python-graphviz
+  - scikit-learn
+  - matplotlib
+  - nbserverproxy
+  - h5py
+  - dask_labextension  
+  - tpot
+  - imageio
+  - zarr
