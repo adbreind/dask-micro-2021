@@ -1,4 +1,6 @@
 #!/bin/bash
 
-# Install the JupyterLab dask-labextension
-jupyter labextension install dask-labextension
+# Install dask and ipywidgets JupyterLab extensions
+jupyter labextension install --minimize=False --clean \
+    dask-labextension \
+    @jupyter-widgets/jupyterlab-manager
